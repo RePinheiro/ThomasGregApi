@@ -1,0 +1,13 @@
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\ThomasGregAPI.Util.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\ThomasGregAPI.Util.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\Newtonsoft.Json.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\Newtonsoft.Json.Schema.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\ThomasGregAPI.Model.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\Newtonsoft.Json.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\bin\Release\Newtonsoft.Json.Schema.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\obj\Release\ThomasGregAPI.Util.csprojAssemblyReference.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\obj\Release\ThomasGregAPI.Util.csproj.CoreCompileInputs.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\obj\Release\ThomasGregAPI.Util.csproj.CopyComplete
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\obj\Release\ThomasGregAPI.Util.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Util\obj\Release\ThomasGregAPI.Util.pdb

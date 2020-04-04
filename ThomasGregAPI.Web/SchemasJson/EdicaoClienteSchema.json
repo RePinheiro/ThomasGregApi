@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "description": "The root schema comprises the entire JSON document.",
+  "required": [
+    "Email"
+  ],
+  "properties": {
+    "Email": {
+      "$id": "#/properties/Email",
+      "type": "string",
+      "title": "The Email Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "user@domain.com"
+      ]
+    },
+    "Nome": {
+      "$id": "#/properties/Nome",
+      "type": "string",
+      "title": "The Nome Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "Maria Jose"
+      ]
+    },
+    "Logotipo": {
+      "$id": "#/properties/Logotipo",
+      "type": "string",
+      "title": "The Logotipo Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "data:image/jpeg;base64,/9j/4AAQ..."
+      ]
+    }
+  }
+}

@@ -1,0 +1,5 @@
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Model\bin\Debug\WebThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Model\bin\Debug\WebThomasGregAPI.Model.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Model\obj\Debug\WebThomasGregAPI.Model.csprojAssemblyReference.cache
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Model\obj\Debug\WebThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Model\obj\Debug\WebThomasGregAPI.Model.pdb

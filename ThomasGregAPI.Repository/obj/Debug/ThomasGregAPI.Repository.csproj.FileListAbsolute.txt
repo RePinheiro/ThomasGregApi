@@ -1,0 +1,44 @@
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csprojAssemblyReference.cache
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CopyComplete
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csprojAssemblyReference.cache
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CopyComplete
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.dll
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.pdb
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll.config
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.pdb
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.pdb
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.xml
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csprojAssemblyReference.cache
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CopyComplete
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll.config
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Repository.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.SqlServer.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Debug\EntityFramework.SqlServer.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csprojAssemblyReference.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.csproj.CopyComplete
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Debug\ThomasGregAPI.Repository.pdb

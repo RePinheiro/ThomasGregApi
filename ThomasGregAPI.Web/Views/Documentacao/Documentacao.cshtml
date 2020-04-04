@@ -1,0 +1,67 @@
+﻿
+@{
+    ViewBag.Title = "Documentacao";
+}
+
+<h2>Documentação</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-3" >
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal" style="margin-left: 15px">
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Usuario</a>
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cliente</a>
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Logradouro</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <h2>Usuário</h2>
+                    <p>
+                        O cadastro é necessário para a autenticação na API, o registro pode ser feito através do menu acima, assim que registrado o usuário terá a opção de realizar login, alterar senha e deletar a conta.
+                    </p>
+                    <p>
+                        Para entender a autenticação acesse <a href="@Url.Action("ApiReference", "Home")">Api Referencia</a>
+                    </p>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    <h2>Cliente</h2>
+                    <p>
+                        Para a manipulação de cliente é necessário a autenticação na API através do Usuario. Um usuário pode cadastrar quantos cliente quiser, e essa visão estará limitada somente ao usuário.
+                    </p>
+                    <p>
+                        POST: Incluirá as informações de Email, Nome, Logotipo e array de Logradouros;<br />
+                        PUT: Modificará as informações de Email, Nome e Logotipo> Para alterar um logradouro deve-se utilizar o <b>EndPoint Logradouro</b>;<br />
+                        GET: Retornará as informações de Email, Nome, Logotipo e todos os logradouros registrados. Para consulta exclusiva de Logradouro deve-se utilizar o <b>EndPoint Logradouro</b>;<br />
+                        DELETE: Excluirá todas as informações do cliente incluindo seus logradouros;
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <h2>Logradouro</h2>
+                    <p>
+                        Para a manipulação de logradouro é necessário a autenticação na API através do Usuario.<br />
+
+                    </p>
+                    <p>
+                        POST: Incluirá um array de Logradouros de acordo com o parametro Email;<br />
+                        PUT: Modificará as informações de um logradouro com base nos parametros ID do logradouro e Email do Cliente; (para saber o Id acione o verbo GET)<br />
+                        GET: Retornará as informações do logradouros registrados com base nos parametros ID do logradouro e Email do Cliente;<br />
+                        DELETE: Excluirá o logradouro com base nos parametros ID do logradouro e Email do Cliente;
+                        <br />
+                        <br />
+
+                        <b>
+                            Detalhes:
+                            <br />
+                            GET: Passe somente o parametro Email para retornar todos os logradouros cadastrados;
+                            <br />
+                            DELETE: passe somente o parametro Email para excluir todos os logrdouros cadastrados;
+                        </b>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

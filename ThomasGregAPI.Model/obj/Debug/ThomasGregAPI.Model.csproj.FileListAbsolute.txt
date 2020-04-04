@@ -1,0 +1,20 @@
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.csproj.CoreCompileInputs.cache
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.dll
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.pdb
+C:\Users\Renan\source\repos\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.csprojAssemblyReference.cache
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.pdb
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.dll
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.pdb
+C:\ThomasGregAPI\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.csprojAssemblyReference.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\bin\Debug\ThomasGregAPI.Model.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.csproj.CoreCompileInputs.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Debug\ThomasGregAPI.Model.pdb

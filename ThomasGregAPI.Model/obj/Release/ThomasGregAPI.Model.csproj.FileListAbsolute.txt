@@ -1,0 +1,6 @@
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\bin\Release\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\bin\Release\ThomasGregAPI.Model.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Release\ThomasGregAPI.Model.csprojAssemblyReference.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Release\ThomasGregAPI.Model.csproj.CoreCompileInputs.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Release\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Model\obj\Release\ThomasGregAPI.Model.pdb

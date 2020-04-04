@@ -1,0 +1,181 @@
+﻿
+@{
+    ViewBag.Title = "ApiReferencia";
+}
+
+<h2>ApiReferencia</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <p style=" margin-top: 20px; margin-bottom: 20px;font-size: 20px;">
+                URLBASE: <b>https://thomasgregapiweb.azurewebsites.net</b>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="horizontal" style="margin-left: 15px">
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Introdução</a>
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-auth-tab" data-toggle="pill" href="#v-pills-auth" role="tab" aria-controls="v-pills-auth" aria-selected="true">Autenticação</a>
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Cliente</a>
+                <a class="nav-link btn btn-primary" style="background-color: #222222" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Logradouro</a>
+            </div>
+        </div>
+        <div class="col-9">
+            <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                    <h2>ThomasGregAPI</h2>
+                    <p>
+                        Versão: 1.0<br />
+                        Host: azure.portal.us/v1<br />
+                        Protocolo: HTTPS<br />
+                        Versão: 1.0<br />
+                        Entradas: application/json, multipart/form-data<br />
+                        Saidas: application/json<br />
+                    </p>
+                    <p>
+                        A Api tem como intuito facilitar a manipulação de dados do Cliente.
+                    </p>
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-auth" role="tabpanel" aria-labelledby="v-pills-auth-tab">
+                    <h2>Autenticação</h2>
+                    <p>
+                        Para realizar a autenticação use o <b>Header</b> de sua solicitação;
+                    </p>
+                    <p>
+                        <b>Usuario</b> - Usuario cadastrado<br />
+                        <b>Senha</b> - Senha cadastrada
+                    </p>
+
+
+                </div>
+                <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+
+                    <h3>api/Cliente</h3>
+                    <p>
+                        EndPoint.
+                    </p>
+                    <p>
+                        <br />
+                        <h4>GET</h4>
+                        <h5>api/cliente</h5>
+                        <b><i>[OPCIONAL] ?Email</i></b> - Parâmetro opcional, caso não seja incluido, a API irá retornar todos os clientes cadastrados pelo usuário.
+                        Retorna todos os clientes cadastrados pelo usuário.
+
+                        <br />
+                        <br />
+                        <h4>POST</h4>
+                        <h5>api/cliente</h5>
+                        Cadastrar o cliente.
+                        <br />
+                        <a class="btn btn-primary" style="background-color: #222222" type="button" data-toggle="collapse" href="#collapseClientePOST" aria-expanded="false" aria-controls="collapseExample">
+                            Exemplo de JSON
+                        </a>
+                        <div class="collapse" id="collapseClientePOST">
+                            <div class="well">
+                                <pre><code class="json">
+                                    {
+                                        "Email": "user@domain.com",
+                                        "Nome": "Renan",
+                                        "Logotipo": "data:image/jpeg;base64,/9j/4AAQ...",
+                                        "Logradouro": [
+                                            "Rua das Laranjeiras",
+                                            "Rua das Acerolas"
+                                        ]
+                                    }
+                                </code></pre>
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <h4>PUT</h4>
+                        <h5>api/cliente</h5>
+                        Alterar o cliente, é possivel fazer a alterção do logotipo e do nome, para alterção de logradouro, utilize o ENDPOIN <i>api/logradouro</i>
+                        <br />
+                        <a class="btn btn-primary" style="background-color: #222222" type="button" data-toggle="collapse" href="#collapseClientePUT" aria-expanded="false" aria-controls="collapseExample">
+                            Exemplo de JSON
+                        </a>
+                        <div class="collapse" id="collapseClientePUT">
+                            <div class="well">
+                                <pre><code class="json">
+                                    {
+                                        "Email": "user@domain.com",
+                                        [Opcional]"Nome": "Maria Jose",
+                                        [Opcional]"Logotipo": "data:image/jpeg;base64,/9j/4AAQ..."
+                                    }
+                                </code></pre>
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <h4>DELETE</h4>
+                        <h5>api/cliente</h5>
+                        <b><i>[Opcional] ?Email</i></b> -  Parâmetro opcional, caso não seja incluido, a API irá deletar todos os cliente cadastrados pelo usuário.
+                        Deletar o cliente.
+                        <br />
+                        <br />
+
+                    </p>
+                </div>
+                <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                    <h3>api/logradouro</h3>
+                    <p>
+                        EndPoint.
+                    </p>
+                    <p>
+                        <br />
+                        <h4>GET</h4>
+                        <h5>api/logradouro</h5>
+                        <b><i>[OBRIGATORIO] ?Email</i></b> - É necessário o parametro Email para trazer os logradouros do cliente cadastrados pelo usuário.<br />
+                        <b><i>[OPCIONAL] ?Id</i></b> - Caso não seja incluido, a API irá retornar todos os logradouros cadastrados pelo usuário.<br />
+                        Retorna todos os clientes cadastrados pelo usuário.
+
+                        <br />
+                        <br />
+                        <h4>POST</h4>
+                        <h5>api/logradouro</h5>
+                        <b><i>[OBRIGATORIO] ?Email</i></b> - É necessário o parametro Email para vincular os novos logradouros do cliente cadastrados pelo usuário.<br />
+                        Cadastrar logradouros no cliente.
+                        <br />
+                        <a class="btn btn-primary" style="background-color: #222222" type="button" data-toggle="collapse" href="#collapseLogradouroPOST" aria-expanded="false" aria-controls="collapseExample">
+                            Exemplo de JSON
+                        </a>
+                        <div class="collapse" id="collapseLogradouroPOST">
+                            <div class="well">
+                                <pre><code class="json">
+                                    {
+                                        "Logradouro": [
+                                            "Rua das Laranjeiras",
+                                            "Rua das Acerolas"
+                                        ]
+                                    }
+                                </code></pre>
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <h4>PUT</h4>
+                        <h5>api/logradouro</h5>
+                        <b><i>[OBRIGATÓRIO] ?Email</i></b> - É necessário o parametro Email para trazer os logradouros do cliente cadastrados pelo usuário.<br />
+                        <b><i>[OBRIGATÓRIO] ?Id</i></b> - É necessário o parametro Id para identificar qual logradouro irá ser alterado.<br />
+                        <b><i>[OBRIGATÓRIO] ?Logradouro</i></b> - Novo valor do logradouro.<br />
+                        Editar Logradouro.
+
+
+                        <br />
+                        <br />
+                        <h4>DELETE</h4>
+                        <h5>api/logradouro</h5>
+                        <b><i>[OBRIGATÓRIO] ?Email</i></b> - É necessário o parametro Email para diferenciar os logradouros do cliente cadastrado cadastrados pelo usuário.<br />
+                        <b><i>[Opcional] ?Id</i></b> -  Parâmetro opcional, caso não seja incluido, a API irá deletar todos os logradouro do cliente cadastrados pelo usuário.<br />
+                        Deletar o cliente.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

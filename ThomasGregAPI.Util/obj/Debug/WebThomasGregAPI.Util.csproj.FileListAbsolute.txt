@@ -1,0 +1,10 @@
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\WebThomasGregAPI.Util.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\WebThomasGregAPI.Util.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\WebThomasGregAPI.Model.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\WebThomasGregAPI.Model.pdb
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\obj\Debug\WebThomasGregAPI.Util.csprojAssemblyReference.cache
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\obj\Debug\WebThomasGregAPI.Util.csproj.CopyComplete
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\obj\Debug\WebThomasGregAPI.Util.dll
+C:\Users\Renan Pinheiro\source\repos\SolutionThomasGregAPI\WebThomasGregAPI.Util\obj\Debug\WebThomasGregAPI.Util.pdb

@@ -1,0 +1,6 @@
+﻿@using System.Configuration
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<input type="hidden" value="@ConfigurationManager.AppSettings["UrlDefault"]" id="UrlDefault" />

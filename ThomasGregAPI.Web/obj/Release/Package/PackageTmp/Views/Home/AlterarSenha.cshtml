@@ -1,0 +1,84 @@
+﻿@{
+    ViewBag.Title = "AlterarSenha";
+}
+
+<h2>Alterar Senha</h2>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 col-lg-3">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h5>Usuario</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <input type="text" id="Usuario" style="width: 100%" disabled value="@ViewBag.Info">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h5>Senha Antiga</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <input type="password" id="SenhaAntiga" style="width: 100%">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <h5>Senha Nova</h5>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+                    <input type="password" id="SenhaNova" style="width: 100%">
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 10px">
+                <div class="col-xs-12 text-center">
+                    <button type="button" onclick="AlterarSenha()" class="btn btn-primary" style="background-color: #222222; width: 100%" id="AlterPassword">Alterar Senha</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    function AlterarSenha() {
+        $.ajax({
+            url: 'AlteraSenha',
+            crossDomain: true,
+            type: 'POST',
+            data: {
+                Usuario: $("#Usuario").val(),
+                SenhaAntiga: $("#SenhaAntiga").val(),
+                SenhaNova: $("#SenhaNova").val(),
+            },
+            dataType: 'json',
+            success: function (data) {
+
+                if (data.Status == 200) {
+                    alert(data.Conteudo)
+                    location.href = "Index"
+                }
+                else {
+                    alert("Não foi possivel atualizar a senha.")
+                }
+            },
+            error: function () {
+                MostrarMensagem("Erro", "Erro inesperado de sistema.", "error");
+            }
+        });
+    }
+
+</script>

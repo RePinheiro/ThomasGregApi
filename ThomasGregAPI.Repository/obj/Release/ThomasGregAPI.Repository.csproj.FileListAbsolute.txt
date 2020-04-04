@@ -1,0 +1,14 @@
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\ThomasGregAPI.Repository.dll.config
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\ThomasGregAPI.Repository.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\ThomasGregAPI.Repository.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\EntityFramework.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\EntityFramework.SqlServer.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\ThomasGregAPI.Model.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\ThomasGregAPI.Model.pdb
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\EntityFramework.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\bin\Release\EntityFramework.SqlServer.xml
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Release\ThomasGregAPI.Repository.csprojAssemblyReference.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Release\ThomasGregAPI.Repository.csproj.CoreCompileInputs.cache
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Release\ThomasGregAPI.Repository.csproj.CopyComplete
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Release\ThomasGregAPI.Repository.dll
+C:\Sistemas\project\ThomasGregAPI\ThomasGregAPI.Repository\obj\Release\ThomasGregAPI.Repository.pdb
