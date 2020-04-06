@@ -19,9 +19,9 @@ GO
 CREATE PROCEDURE PROC_SE_LOGRADOURO @Email varchar(25), @Id int = null
 AS
 	IF @Id <> null
-		SELECT * FROM LOGRADOURO where EMAIL = @Email
-	ELSE
 		SELECT * FROM LOGRADOURO where EMAIL = @Email AND ID = @Id
+	ELSE
+		SELECT * FROM LOGRADOURO where EMAIL = @Email 
 	  
 GO
 
@@ -33,7 +33,7 @@ GO
 CREATE PROCEDURE PROC_DE_LOGRADOURO @Email varchar(25), @Id int = null
 AS
 	IF @Id <> null
-		DELETE LOGRADOURO where EMAIL = @Email 
-	ELSE
 		DELETE LOGRADOURO where EMAIL = @Email AND ID = @Id
+	ELSE
+		DELETE LOGRADOURO where EMAIL = @Email 
 GO
